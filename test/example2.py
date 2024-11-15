@@ -1,6 +1,6 @@
 import zipfile
 import networkx as nx
-from Community_detection import Module1 as lbcd
+from src.Community_detection import Module1 as lbcd
 zf=zipfile.ZipFile("Dataset/football.zip")
 txt=zf.read('football.txt').decode()
 gml=zf.read('football.gml').decode()
